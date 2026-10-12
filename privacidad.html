@@ -34,7 +34,7 @@
   <h2>2. Qué datos se procesan y dónde</h2>
   <p>La app procesa únicamente los archivos de audio o video que vos elegís transcribir y el texto que resulta de ellos. Todo ese procesamiento ocurre en tu computadora: el reconocimiento de voz viene incluido en la aplicación y funciona sin conexión a internet.</p>
   <ul>
-    <li>Las grabaciones se leen desde la carpeta donde están. Si arrastrás un archivo a la ventana, la app guarda una copia de trabajo en su propia carpeta y la borra automáticamente a los 20 días.</li>
+    <li>Las grabaciones se leen desde la carpeta donde están. Solo si la app no puede saber de qué carpeta viene un archivo, guarda una copia de trabajo en su propia carpeta y la borra automáticamente a los 20 días.</li>
     <li>Las transcripciones, tus preferencias y las correcciones automáticas que cargues se guardan en la carpeta de datos de la app, dentro de tu usuario de Windows.</li>
     <li>Los documentos que descargás (Word, texto, subtítulos) se guardan donde vos decidas.</li>
   </ul>
@@ -48,7 +48,7 @@
   </ul>
 
   <h2>4. Conexiones de red</h2>
-  <p>La app funciona con un pequeño servidor interno que solo atiende a tu propia computadora (dirección 127.0.0.1) y no es accesible desde otros equipos ni desde internet. La ventana de la app se muestra con Microsoft Edge, que ya viene con Windows; Edge se rige por su propia <a href="https://privacy.microsoft.com/es-es/privacystatement">declaración de privacidad de Microsoft</a>. Transcriptor Judicial no le pide a Edge que envíe ningún contenido.</p>
+  <p>La app funciona con un pequeño servidor interno que solo atiende a tu propia computadora (dirección 127.0.0.1) y no es accesible desde otros equipos ni desde internet. La ventana de la app se dibuja con Microsoft WebView2, el componente de Windows que muestra contenido web dentro de las aplicaciones (si falta, se usa Microsoft Edge). Ese componente se rige por la <a href="https://privacy.microsoft.com/es-es/privacystatement">declaración de privacidad de Microsoft</a>. Transcriptor Judicial no le pide que envíe ningún contenido.</p>
 
   <h2>5. Cuánto tiempo se conservan y cómo borrarlos</h2>
   <p>Las transcripciones se conservan hasta que vos las borres. Podés eliminarlas una por una desde «Mis transcripciones» y liberar espacio desde «Ajustes». Al desinstalar la app, Windows borra su carpeta de datos con todo su contenido. Los documentos que hayas descargado en otras carpetas no se tocan.</p>
